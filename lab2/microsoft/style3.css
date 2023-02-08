@@ -1,0 +1,157 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 100%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+
+
+}
+
+.Block1 .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 400px;
+}
+
+.Block1 .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Block1 .left img{
+    width: 150px;
+}
+
+.Block1 .right a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 14px;
+}
+
+.Block1 .left a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.Products img{
+    width: 10px;
+}
+
+.Zalupa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Zalupa img{
+    width: 30px;
+}
+
+.Login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login img{
+    width: 40px;
+    padding: 15px;
+    width: 30px;
+}
+
+
+.Block2{
+    background-image: url(fon2.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.Block2 .text{
+    padding-left: 100px;
+    width: 30%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fafafa;
+}
+
+.Block2 .text h1{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.Block2 button{
+    width: 50%;
+    height: 35px;
+    background-color: #155896;
+    border: 1px solid #155896;
+    color: #fafafa;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.Block3 {
+    width: 90%;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.part h1{
+    font-weight: 520;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.part img{
+    width: 323px;
+}
+
+.Zat img{
+    width: 10px;
+}
+
+.Zat a{
+    text-decoration: none;
+    font-weight: bold;
+}

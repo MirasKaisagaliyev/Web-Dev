@@ -1,0 +1,238 @@
+body{
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.left{
+    height: 700px;
+    width: 438px;
+    background-image:url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.left img{
+    position: relative;
+    top: 30px;
+    left: 155px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: white; */
+    width: 25%;
+    margin-bottom:20px;
+}
+
+.right img {
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.autoriz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d5d0d0;
+    background-color: white;
+}
+
+.fields {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.autoriz button {
+    width: 80%;
+    height: 35px;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.or span {
+    color: gray;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.or-line {
+    width: 123px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    padding: 15px;
+}
+
+.facebook img{
+    width: 15px;
+    cursor: pointer;
+}
+
+.facebook a{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #276096;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgotPass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.forgotPass a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #276096;
+}
+
+.createAcc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d5d0d0;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.createAcc a{
+    text-decoration: none;
+    color: #276096;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.Download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download span{
+    margin: 10px;
+}
+
+.Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Images img{
+    width: 40%;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.Raw1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Raw1 ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Raw1 ul li a{
+    text-decoration: none;
+    color: #6d6969;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.Raw1 ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.Raw2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Raw2 span{
+    margin-left: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color:#6d6969;
+}
+
+.Raw2 select{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background: none;
+    border-color: transparent;
+}
+

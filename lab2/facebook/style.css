@@ -1,0 +1,223 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    /* overflow: auto; */
+}
+
+a{
+    text-decoration: none;
+}
+/* Настройки страницы */
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* font-size: 180px; */
+}
+/* Левая половина */
+.title-box{
+    width: 500px;
+}
+
+/* Картинки */
+.title-box img{
+    width: 235px;
+    margin-bottom: -10px;
+}
+
+/* Текст */
+.title-box p{
+    color:black;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.right{
+    width: 390px;
+}
+/* Основной квадрат справа */
+.form-box{
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+
+/* Поля ввода */
+.form-box input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Обводка ввода */
+.form-box input:focus {
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+
+/* Настройки кнопки Входа */
+.form-box button {
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background-color: #166fe5;
+}
+
+/* Светится при наведении */
+.form-box button:hover {
+    background: #1877f2;
+}
+
+.form-box a{
+    color: #166fe5;
+    font-size: 15px;
+    /* Убирает дефолтный андерлайн */
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    /* Дает применить все параметры сверху */
+    display: block; 
+}
+
+.form-box a:hover{
+    /* Андерлайн при наведении */
+    text-decoration: underline;
+}
+
+.form-box hr{
+    border: 1px solid #dadde1;
+    margin-bottom: 20px;
+}
+
+.form-box .create-btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #42b72a;
+    font-weight: 600;
+    /* Сужает задник до размеров текста */
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-box .create-btn a:hover{
+    background: #36a420;
+}
+
+.right .creator{
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.creator a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: white;
+    padding-left: 6cm;
+    padding-right: 6cm;
+    padding-bottom: 30px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+footer a{
+    color: grey;
+}
+
+.language ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.language ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.language ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.Plus{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.line{
+    width: 92%;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin-left: 40px;
+}
+
+.Info ul{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.Info ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.Info ul li a:hover{
+    text-decoration: underline  ;
+}
+
+.Meta{
+    color: rgb(63, 61, 61);
+    font-size: 12px;
+    font-family: inherit;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.telo{
+    display: block;
+}
