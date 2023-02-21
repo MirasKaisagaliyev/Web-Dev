@@ -1,0 +1,41 @@
+.cartinca img{
+    width: 80%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.cartinca{
+    width: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    margin-bottom: 30px;
+    /* border: 2px solid rgb(216, 214, 214); */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 5px black;
+}
+
+.list:hover{
+    /* border: 1px solid rgb(6, 23, 211); */
+    box-shadow: 0 1px 5px rgb(6, 23, 211);
+}
+
+.pr{
+    font-size: 20px;
+    text-decoration: underline;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
