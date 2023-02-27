@@ -1,0 +1,111 @@
+.filter{
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    
+}
+.cartinca img{
+    width: 80%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.cartinca{
+    width: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    margin-bottom: 30px;
+    /* border: 2px solid rgb(216, 214, 214); */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 5px black;
+}
+
+.list:hover{
+    /* border: 1px solid rgb(6, 23, 211); */
+    box-shadow: 0 1px 5px rgb(6, 23, 211);
+}
+
+.pr{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.Social{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.like button{
+    background-color: white;
+    width: 70%;
+    color: gray;
+    font-size: 30px;
+}
+
+.like button:hover{
+    color: red;
+}
+
+.delete{
+    background-color: red;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    
+}
+  
+.box {
+    width: 100%;
+    margin: 20px;
+}
+.box select {
+    background-color: #1976d2;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.box select option{
+    color: white;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
